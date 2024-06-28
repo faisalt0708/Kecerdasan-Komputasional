@@ -5,3 +5,4 @@ streamlit==1.28.1
 zipp==3.19.2
 matplotlib==3.9.0
 numpy==1.26.4
+scikit_learn_extra==0.3.0
