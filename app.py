@@ -16,7 +16,7 @@ def show_data():
 
     # Hanya izinkan maksimal 3 upload
     if st.session_state.upload_count < 3:
-        uploaded_file = st.file_uploader("Upload file Excel", type=["xlsx", "xls"], key=f"file_uploader_{st.session_state.upload_count}")
+        uploaded_file = st.file_uploader("Kelompok 1.xlsx", type=["xlsx", "xls"], key=f"file_uploader_{st.session_state.upload_count}")
 
         if uploaded_file is not None:
             # Simpan file yang diunggah ke dalam session state
