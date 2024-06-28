@@ -4,7 +4,6 @@ from sklearn_extra.cluster import KMedoids
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-import uuid
 
 def show_data():
     st.header('Menu Data')
